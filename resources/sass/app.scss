@@ -1,0 +1,129 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Select2
+// @import "~select2/dist/css/select2.css";
+
+// Toastr
+@import '~toastr/toastr';
+
+// Select2 Bootstrap Theme
+@import "~select2-bootstrap-5-theme/src/select2-bootstrap-5-theme";
+
+@font-face {
+    src: url('../fonts/Aileron-Heavy.otf');
+    font-family: 'custom-family';
+}
+
+h1, .navbar-brand{
+    font-family: "custom-family";
+}
+
+h1{
+    font-weight: 900;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #e8af41 100%) !important;
+}
+
+.navbar{
+    border-bottom: 3px solid #e8af41;
+    z-index: 99999 !important;
+}
+
+.modal{
+    z-index: 99999 !important;
+}
+
+.back-img{
+    height: 100%;
+    background-image: url("../images/example.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.container {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    padding: 10%;
+    text-align: center;
+}
+
+.modal-body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5%;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.1);
+    z-index: 2;
+}
+
+div.master {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+div.master h1, div.master .h1 {
+    font-size: 2.25rem;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #292b2c;
+    opacity: 1;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e8af41;
+    border: none;
+    border-radius: 10rem;
+}
+
+a .btn :active, a .btn :hover{
+    background-color: #292b2c !important;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    // text-align: left;
+}
+
+
+
