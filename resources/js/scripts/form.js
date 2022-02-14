@@ -18,8 +18,8 @@ $(() => {
                 $('#for').html(response.for);
                 $('#minutes').html(response.minutes + ' minutos');
                 $('#plan').html(response.plan);
-                $('#with').html('R$ ' + response.withPlan + ',00');
-                $('#without').html('R$ '+ response.withoutPlan + ',00');
+                $('#with').html('R$ ' + response.withPlan);
+                $('#without').html('R$ '+ response.withoutPlan);
                 $('#modal').modal('show');
             },
             error: function(e){
